@@ -1,0 +1,19 @@
+{
+  "name": "consumer/pricechecker",
+  "type": "library",
+  "description": "ConsumerStore pricechecker",
+  "keywords": ["price", "checker", "comparison", "product", "products"],
+  "homepage": "https://github.com/consumerstorecom/consumer.php.pricechecker",
+  "authors": [
+    {
+      "name": "ConsumerStore",
+      "homepage": "https://www.consumerstore.com/"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "classmap": ["src/"]
+  }
+}
